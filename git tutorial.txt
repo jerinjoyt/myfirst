@@ -20,7 +20,7 @@ git rm --cached <file name> => to remove the file from the repository.
 
 git add*.html => add all the files with html format to the staging area
 
-git add. =>adds all files to the staging area.
+git add . =>adds all files to the staging area.
 
 git commit => commits everything in the staging area to the repository. Git commit opens another editor and in there we have to press 'i' to go to the insert mode and it allows us to type. everything with '#' infront of it is considered as comments. Inside the thin editor we have to type 'Initial commit'. Then press escape to get out of the editor. then outside type ' :wq 
 
