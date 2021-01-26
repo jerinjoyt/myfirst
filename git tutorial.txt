@@ -1,0 +1,40 @@
+Git tutorial
+
+git --version => gives the current version of the git hub.
+
+Right click on any folder and choose get git bash here to open git bash at that particular location.
+
+touch <file name>  => to create a new file from the git bash.
+
+git init => to initialize to  make any folder as git local repository (it will create a .git folder in there , a hidden folder)
+
+git config --global user.name 'Your name'. => This will add your name to the git repository.
+
+git config --global user.email 'Your email'. => This will add your email to the git repository.
+
+git add <file name> => to add the file to the git repository.
+
+git status =>  to see the items in the git repository.
+
+git rm --cached <file name> => to remove the file from the repository.
+
+git add*.html => add all the files with html format to the staging area
+
+git add. =>adds all files to the staging area.
+
+git commit => commits everything in the staging area to the repository. Git commit opens another editor and in there we have to press 'i' to go to the insert mode and it allows us to type. everything with '#' infront of it is considered as comments. Inside the thin editor we have to type 'Initial commit'. Then press escape to get out of the editor. then outside type ' :wq 
+
+git commit -m 'type message here' => this will commit the changes without going in to the thin editor.
+
+
+
+
+
+
+
+
+
+
+
+
+
