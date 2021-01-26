@@ -26,11 +26,13 @@ git commit => commits everything in the staging area to the repository. Git comm
 
 git commit -m 'type message here' => this will commit the changes without going in to the thin editor.
 
+touch .gitignore => creates a file in the system that can contain information about which files to be ignored or excluded from the folder when adding to the repository. we can add file names and directory names in the gitignore file and also *.html or *.txt to exclude those particular formats.
 
+git branch <branch name>  =>  creates a new branch. 
 
+git checkout <branch name> => to switch to the particular branch.
 
-
-
+git merge <branch name> => to merge to branches. 
 
 
 
